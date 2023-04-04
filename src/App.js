@@ -68,7 +68,8 @@ function App() {
         <Step1 />
         <Step2 />
         <Step3 />
-      </UncontrolledOnboardingFlow> */}
+      </UncontrolledOnboardingFlow> 
+      */}
       <ControlledOnboardingFlow currentIndex={currentIndex} onNext={onNext}>
         <Step1 />
         <Step2 />
